@@ -1,0 +1,100 @@
+@font-face {
+    font-family: yekan;
+    src: url(../asset/Yekan.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: yekan !important;
+}
+
+body {
+    background: linear-gradient(to left top, #200122, #6f0000);
+    min-height: 100vh;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.title {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+video {
+    width: 100%;
+    background-color: #000;
+}
+
+.music-Wrapper {
+    margin: 3.5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+p {
+    font-size: 1.1rem;
+    font-weight: bold;
+
+}
+
+.music-Wrapper audio {
+    width: 100%;
+    padding: 1rem;
+    height: 80px;
+
+}
+
+.favorite {
+    width: 100%;
+    margin-top: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+
+}
+
+.swal2-popup {
+    background-color: #010101 !important;
+}
+
+.swal2-title {
+    color: #fff !important;
+}
+
+.swal2-confirm {
+    background-color: #e40613 !important;
+}
+
+.swal2-confirm:focus {
+   box-shadow: none !important;
+}
+
+.swal2-icon {
+    color: #e40613 !important;
+    border-color: #e40613 !important;
+}
+
+@media (min-width:675px) {
+
+    video {
+        width: 600px;
+        height: 600px;
+    }
+
+    .music-Wrapper audio {
+        width: 600px;
+        height: 80px;
+    }
+}
