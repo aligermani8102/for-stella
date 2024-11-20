@@ -16,9 +16,15 @@ body {
     color: #fff;
 }
 
-h1 {
+h1,
+h6 {
     text-align: center;
     margin-top: 0.5rem;
+}
+
+h6{
+    margin-top: 4rem;
+    font-size: 2rem;
 }
 
 .title {
@@ -78,7 +84,7 @@ p {
 }
 
 .swal2-confirm:focus {
-   box-shadow: none !important;
+    box-shadow: none !important;
 }
 
 .swal2-icon {
